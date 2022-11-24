@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.catgram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 75%;
+
+
+}
+
+.catgram-phones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+
+}
+
+.catgram-phones img {
+    height: 60rem;
+
+}
+
+.catgram-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+
+}
+
+.catgram-perfil img {
+    height: 50px;
+}
+
+.catgram-logo img {
+    height: 100px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+
+.input {
+    font-size: 15px;
+    line-height: 1.2;
+    border: 1px solid lightgray;
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-family: Nunito, sans-serif;
+    padding: 25px 25px 25px 30px;
+  }
+
+.group:nth-child(1) {
+    min-height: 19rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.profile-photo {
+    background-image: url("./../../img/inicial2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 200px;
+}
+
+
+.login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+
+
+.logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: rgb(160, 160, 160);
+
+}
+
+.link-blue {
+    color: #0095f6;
+    ;
+}
+
+
+.gettheapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url("./../../img/apple.png");
+
+}
+
+.app-download:nth-child(2) {
+    background-image: url("./../../img/google.png");
+
+}
+
+
+.wrap-login {
+    width: 450px;
+    background-color: #c5c3c3;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 74px 50px 33px 50px;
+
+}
+
+.login-form {
+    width: 100%;
+}
+
+.wrap-input {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+
+.cadastrar-form-btn {
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 1.6;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: #4bb543;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .catgram-wrapper {
+        width: 90%;
+    }
+
+    .catgram-phones {
+        display: none;
+    }
+
+    .catgram-perfil {
+        width: 100%;
+
+    }
+
+    .group {
+        border: none;
+    }
+}
